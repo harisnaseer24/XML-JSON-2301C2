@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="flower.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<!-- <?xml-model href="index.dtd" type="application/xml-dtd"?> -->
+<!-- <!DOCTYPE flowerShop [
+    <!ELEMENT flowerShop (flower+)>
+    <!ELEMENT flower (id,flowerName,qty)>
+    <!ELEMENT id (#PCDATA)>
+    <!ELEMENT flowerName (#PCDATA)>
+    <!ELEMENT qty (#PCDATA)>
+]> -->
+<?xml-stylesheet href="flower.xsl" type="text/xsl"?>
+<flowerShop>
+<flower>
+    <id>1</id>
+    <flowerName>Rose</flowerName>
+    <qty>2924</qty>
+</flower>
+<flower>
+    <id>2</id>
+    <flowerName>Tulip</flowerName>
+    <qty>4924</qty>
+</flower>
+<flower>
+    <id>3</id>
+    <flowerName>Lily</flowerName>
+    <qty>924</qty>
+</flower>
+<flower>
+    <id>4</id>
+    <flowerName>Daffodils</flowerName>
+    <qty>824</qty>
+</flower>
+<flower>
+    <id>5</id>
+    <flowerName>Sun Flower</flowerName>
+    <qty>9241</qty>
+</flower>
+</flowerShop>

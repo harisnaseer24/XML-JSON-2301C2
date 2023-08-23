@@ -1,0 +1,9 @@
+<!ELEMENT aptech (student+)>
+<!ELEMENT student (id,name,sem)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT sem (#PCDATA)>
+<!ATTLIST student status  CDATA  #IMPLIED>
+
+
+

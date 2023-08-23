@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <script>
+
+let cricketer={
+    age:18,
+    name:"Jason Holder",
+    height:"6.2 feet",
+    runs:7896
+}
+
+
+console.log(cricketer);
+// document.write(cricketer.name);
+// document.write(cricketer.age);
+// document.write(cricketer.height);
+
+let abcd=JSON.stringify(cricketer);
+
+localStorage.setItem("Cricketer", abcd)
+
+let xyz=JSON.parse(localStorage.getItem("Cricketer"))
+
+
+document.write(xyz.height);
+
+
+// let objCricketer=JSON.parse(jasonCricketer);
+// document.write(objCricketer);
+
+    </script>
+</body>
+</html>

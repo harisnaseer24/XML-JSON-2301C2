@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="flower.xsl" type="text/xsl"?>
+
+<!-- <?xml-model href="index.dtd" type="application/xml-dtd"?> -->
+<!-- <!DOCTYPE aptech [
+<!ELEMENT aptech (student+)>
+<!ELEMENT student (id,name,sem)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT sem (#PCDATA)>
+<!ATTLIST student status  CDATA  #IMPLIED>
+]> -->
+
+<aptech>
+    <student status="CR">
+        <id >001</id>
+        <name>Mr. Asad Shakeel</name>
+        <sem>DISM</sem>
+    </student>
+    <student>
+        <id>002</id>
+        <name>Mr. Shakeel Ahmed</name>
+        <sem>CPISM</sem>
+    </student>
+    <student>
+        <id>003&lt;</id>
+        <name>Mr. Abdul Basit</name>
+        <sem>ADSE I</sem>
+    </student>
+    <student>
+        <id>004</id>
+        <name>Mr. Asher Ahmed</name>
+        <sem>HDSE</sem>
+    </student>
+    
+    <student>
+        <id>005</id>
+        <name>Mr. Hassan Sheikh</name>
+        <sem>DISM</sem>
+    </student>
+
+</aptech>
